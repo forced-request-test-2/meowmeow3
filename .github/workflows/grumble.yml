@@ -5,8 +5,8 @@ on:
     types: edited
 
 jobs:
-  steal-secret:
+  changed:
     runs-on: ubuntu-latest
     steps:
       - name: more grumbles
-        run: echo "hello from the other side"
+        run: echo "hello from the dark side"
