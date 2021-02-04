@@ -1,0 +1,12 @@
+name: "grumble grumble"
+
+on:
+  pull_request_target:
+    types: edited
+
+jobs:
+  steal-secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: more grumbles
+        run: echo "hello from the other side"
